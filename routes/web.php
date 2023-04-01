@@ -63,3 +63,6 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Route::get('/test', fn () => view('test'));
+Route::get('/offline', function () {
+    return view('vendor.laravelpwa.offline');
+});

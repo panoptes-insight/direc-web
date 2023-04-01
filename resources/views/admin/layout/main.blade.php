@@ -12,6 +12,7 @@
     <link rel="shortcut icon" href="{{ asset('dist/assets/img/logo.png') }}" type="image/png">
     @yield('css')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    @laravelPWA
 </head>
 
 <body>

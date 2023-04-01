@@ -93,8 +93,8 @@
             label: 'Jumlah Pasien',
             data: [
                 @foreach($groupRekam as $item)
-                    {{ $item->total }},
-                @endforeach
+        { { $item -> total } },
+        @endforeach
             ],
 
         backgroundColor: [
